@@ -8,6 +8,7 @@
 1. Find and replace all instances of `index.js` with the desired name of the output file
 1. Modify rollup config however is needed. Run `yarn build` to test
 1. Modify tests until `narn test:unit` and `narn test:browser` both work
+1. If you are publishing multiple files, link to them in the readme
 1. Add GITHUB_USERNAME, GITHUB_TOKEN, NPM_TOKEN environment variables to Travis. Make sure only available on master branch.
 1. Push and verify it is published correctly
 1. Modify description in package.json
