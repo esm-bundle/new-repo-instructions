@@ -10,3 +10,4 @@
 1. Modify tests until `narn test:unit` and `narn test:browser` both work
 1. Add GITHUB_USERNAME, GITHUB_TOKEN, NPM_TOKEN environment variables to Travis
 1. Push and verify it is published correctly
+1. Modify description in package.json
