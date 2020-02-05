@@ -6,6 +6,7 @@
 1. `yarn add --dev name-of-your-repo`
 1. Find and replace all instances of `autopublish-template` with `name-of-your-repo`
 1. Find and replace all instances of `index.js` with the desired name of the output file
+1. Modify the Readme to point to the correct "upstream repo"
 1. Modify rollup config however is needed. Run `yarn build` to test
 1. Modify tests until `narn test:unit` and `narn test:browser` both work
 1. If you are publishing multiple files, link to them in the readme
