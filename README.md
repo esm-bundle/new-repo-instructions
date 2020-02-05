@@ -1,4 +1,10 @@
-# new-repo-instructions
+# Instructions for creating a new repo
+
+## What is this?
+
+https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d
+
+## Okay how do I do it
 
 *If this is your first time working on esm-bundle, please [create a Github issue](https://github.com/esm-bundle/new-repo-instructions/issues/new) to be added to [this esm-bundle Github team](https://github.com/orgs/esm-bundle/teams/repo-authors). Once you are on the team, you will be able to create repositories into the esm-bundle organization. Until then, create repositories in your own Github account and then transfer them once you are given access.*
 
