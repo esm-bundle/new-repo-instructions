@@ -18,7 +18,11 @@ https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d
 1. Modify rollup config however is needed. Run `yarn build` to test
 1. Modify tests until `yarn test:unit` and `yarn test:browser` both work
 1. If you are publishing multiple files, link to them in the readme
-1. Add a [github branch protection rule](https://help.github.com/en/github/administering-a-repository/configuring-protected-branches) for the master branch. This is required by Kodiak. You should protect the master branch by requiring a pull request approval and successful CI before merges.
+1. Add a [github branch protection rule](https://help.github.com/en/github/administering-a-repository/configuring-protected-branches) for the master branch. This is required by Kodiak. You should protect the master branch by requiring a pull request approval and successful CI before merges. See picture below for what that configuration looks like.
 1. Add GITHUB_USERNAME, GITHUB_TOKEN, NPM_TOKEN environment variables to Travis. Make sure only available on master branch.
 1. Push and verify it is published correctly
 1. Modify description in package.json
+
+## Protecting the master branch
+
+![image](https://user-images.githubusercontent.com/5524384/75733136-b262af00-5cb1-11ea-9583-db93e06de0c0.png)
