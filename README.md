@@ -8,6 +8,8 @@ https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d
 
 *If this is your first time working on esm-bundle, please [create a Github issue](https://github.com/esm-bundle/new-repo-instructions/issues/new) to be added to [this esm-bundle Github team](https://github.com/orgs/esm-bundle/teams/repo-authors). Once you are on the team, you will be able to create repositories into the esm-bundle organization. Until then, create repositories in your own Github account and then transfer them once you are given access.*
 
+**Note that the tests only work with ES modules enabled. This requires node@>=13.2.0, or the `--experimental-modules` flag to be enabled in earlier versions**
+
 1. Create repo from https://github.com/esm-bundle/autopublish-template. You do this by going there and clicking on "Use this template"
 1. `yarn`
 1. `yarn remove autopublish-template`
