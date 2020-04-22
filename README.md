@@ -8,7 +8,8 @@ https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d
 
 *If this is your first time working on esm-bundle, please [create a Github issue](https://github.com/esm-bundle/new-repo-instructions/issues/new) to be added to [this esm-bundle Github team](https://github.com/orgs/esm-bundle/teams/repo-authors). Once you are on the team, you will be able to create repositories into the esm-bundle organization. Until then, create repositories in your own Github account and then transfer them once you are given access.*
 
-1. Create repo from https://github.com/esm-bundle/autopublish-template. You do this by going there and clicking on "Use this template"
+1. Make sure you know the name of the Github repo that you will create. This should be exactly the same as the package name on npm. If the package has an npm scope (`@`), use the [syntax](https://github.com/DefinitelyTyped/DefinitelyTyped#what-about-scoped-packages) used by DefinitelyTyped (`__`) to name the package. Do not put `@` in the repo name.
+1. Create a repo from https://github.com/esm-bundle/autopublish-template. You do this by going there and clicking on "Use this template"
 1. Ensure you are using node@>=13.2.0. You can check by doing `node --version`. If you use [nvm](https://github.com/nvm-sh/nvm), you can switch to the correct version of node via `nvm use`
 1. `yarn`
 1. `yarn remove autopublish-template`
