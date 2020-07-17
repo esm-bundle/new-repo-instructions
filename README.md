@@ -16,6 +16,7 @@ _If this is your first time working on esm-bundle, please [create a Github issue
 1. `yarn add --dev name-of-your-repo`
 1. Find and replace all instances of `autopublish-template` with `name-of-your-repo`
 1. Find and replace all instances of `index.js` with the desired name of the output file
+   - It is encouraged to match the upstream package's output and naming convention for its UMD bundles
 1. Modify the Readme to point to the correct "upstream repo"
 1. Modify the `version` in the package.json to `0.0.0-unpublished.0` in order to trigger release-it plugin on first merge
 1. Modify description in package.json
